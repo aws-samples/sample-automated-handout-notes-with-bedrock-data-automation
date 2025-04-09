@@ -1,7 +1,5 @@
 # Automate the creation of handout notes for educators using Amazon Bedrock Data Automation
 
-This repository contains the code and deployment instructions for the BLOG LINK PLACEHOLDER
-
 The AWS Cloud Development Kit (AWS CDK) stack deploys an AWS Step Functions [state machine](https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html) to orchestrate the creation on handout notes from a presentation video recording. The project uses a combination of [AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html) functions and [Amazon Bedrock Data Automation (BDA)](https://docs.aws.amazon.com/bedrock/latest/userguide/bda.html). BDA analyzes the video recording to extract key information, including the spoken transcript and timestamps for slide transitions.
 
 ## Solution overview
